@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(191, 213, 235);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    background-color: rgb(219, 207, 232);
+    width : 80%;
+    margin-left: 10%;
+    height : 1000%;
+}
+/* title */
+#title{
+    text-align: center;
+}
+
+@media screen and (max-width : 600px){
+    .table{
+        margin-left: 18%;
+    }
+    td{
+        font-size: small;
+    }
+}
+@media screen and (min-width : 600px){
+    .table{
+        margin-left : 20%;
+    }
+}
+.table {
+    border: solid;
+    width : 60%;
+}
+
+.td {
+    border-right: 1px solid;
+}
+td{
+    border-bottom: 1px solid;
+}
+
+#book-appt{
+    margin-left: 40%;
+}
+
+#appt-btn{
+    text-decoration: none;
+    text-align: center;
+    font-size: larger;
+    border: 1px solid rgb(73, 13, 226);
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#appt-btn:visited{
+    color: rgb(34, 56, 155);
+}
+
+#appt-btn:hover{
+    background-color: beige;
+}

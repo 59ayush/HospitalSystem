@@ -1,0 +1,31 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(191, 213, 235);
+    color: rgb(0, 0, 0);
+}
+
+#title{
+    text-align: center;
+}
+form{
+    background-color: rgb(219, 207, 232);
+    width: 60%;
+    margin-left: 20%;
+}
+label{
+    margin-left: 3%;
+}
+.form-input{
+    display: block;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+#submit-btn-container{
+    text-align: center;
+    margin-top: 10%;
+}
+#submit{
+    margin-left: 35%;
+}
